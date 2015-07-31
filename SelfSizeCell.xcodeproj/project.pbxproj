@@ -14,6 +14,7 @@
 		F2E137B91B6B2815003A320F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E137B81B6B2815003A320F /* Images.xcassets */; };
 		F2E137BC1B6B2815003A320F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E137BA1B6B2815003A320F /* LaunchScreen.xib */; };
 		F2E137C81B6B2815003A320F /* SelfSizeCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E137C71B6B2815003A320F /* SelfSizeCellTests.m */; };
+		F2E137D31B6B28D3003A320F /* MultiLineTextInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E137D21B6B28D3003A320F /* MultiLineTextInputTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F2E137C11B6B2815003A320F /* SelfSizeCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSizeCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E137C61B6B2815003A320F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2E137C71B6B2815003A320F /* SelfSizeCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfSizeCellTests.m; sourceTree = "<group>"; };
+		F2E137D11B6B28D3003A320F /* MultiLineTextInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLineTextInputTableViewCell.h; sourceTree = "<group>"; };
+		F2E137D21B6B28D3003A320F /* MultiLineTextInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLineTextInputTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				F2E137B01B6B2815003A320F /* AppDelegate.m */,
 				F2E137B21B6B2815003A320F /* ViewController.h */,
 				F2E137B31B6B2815003A320F /* ViewController.m */,
+				F2E137D11B6B28D3003A320F /* MultiLineTextInputTableViewCell.h */,
+				F2E137D21B6B28D3003A320F /* MultiLineTextInputTableViewCell.m */,
 				F2E137B51B6B2815003A320F /* Main.storyboard */,
 				F2E137B81B6B2815003A320F /* Images.xcassets */,
 				F2E137BA1B6B2815003A320F /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E137B41B6B2815003A320F /* ViewController.m in Sources */,
+				F2E137D31B6B28D3003A320F /* MultiLineTextInputTableViewCell.m in Sources */,
 				F2E137B11B6B2815003A320F /* AppDelegate.m in Sources */,
 				F2E137AE1B6B2815003A320F /* main.m in Sources */,
 			);
